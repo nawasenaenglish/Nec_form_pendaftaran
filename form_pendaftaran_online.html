@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulir Pendaftaran Siswa Baru</title>
+  <style>
+    body { font-family: sans-serif; background: #f4f4f4; padding: 2em; }
+    .form-container { max-width: 600px; margin: auto; background: white; padding: 2em; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .logo { text-align: center; margin-bottom: 1em; }
+    .logo img { width: 120px; }
+    h2 { text-align: center; }
+    label { display: block; margin-top: 1em; font-weight: bold; }
+    input, textarea { width: 100%; padding: 0.5em; margin-top: 0.3em; border-radius: 4px; border: 1px solid #ccc; }
+    button { margin-top: 1.5em; width: 100%; padding: 0.8em; background-color: #007bff; color: white; border: none; border-radius: 4px; font-size: 1em; }
+    button:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <div class="logo">
+      <img src="WhatsApp Image 2025-05-19 at 22.51.49 (1).jpeg" alt="Logo Nawasena" />
+    </div>
+    <h2>Pendaftaran Online - Nawasena English Course</h2>
+    <form action="https://docs.google.com/forms/d/e/your-google-form-link/formResponse" method="POST" target="_blank">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" name="entry.123456" id="nama" required />
+
+      <label for="ttl">Tempat & Tanggal Lahir</label>
+      <input type="text" name="entry.234567" id="ttl" required />
+
+      <label for="alamat">Alamat Lengkap</label>
+      <textarea name="entry.345678" id="alamat" rows="3" required></textarea>
+
+      <label for="sekolah">Sekolah</label>
+      <input type="text" name="entry.456789" id="sekolah" required />
+
+      <label for="kelas">Kelas</label>
+      <input type="text" name="entry.567890" id="kelas" required />
+
+      <label for="nowa">No. WhatsApp</label>
+      <input type="tel" name="entry.678901" id="nowa" required />
+
+      <label for="ig">Instagram</label>
+      <input type="text" name="entry.789012" id="ig" />
+
+      <label for="ayah">Nama Ayah</label>
+      <input type="text" name="entry.890124" id="ayah" />
+
+      <label for="pekerjaan_ayah">Pekerjaan Ayah</label>
+      <input type="text" name="entry.890125" id="pekerjaan_ayah" />
+
+      <label for="nowa_ayah">No. WA Ayah</label>
+      <input type="tel" name="entry.890126" id="nowa_ayah" />
+
+      <label for="ibu">Nama Ibu</label>
+      <input type="text" name="entry.890127" id="ibu" />
+
+      <label for="pekerjaan_ibu">Pekerjaan Ibu</label>
+      <input type="text" name="entry.890128" id="pekerjaan_ibu" />
+
+      <label for="nowa_ibu">No. WA Ibu</label>
+      <input type="tel" name="entry.890129" id="nowa_ibu" />
+
+      <label for="bua">BUA (Bakat, Usaha, atau Alasan Belajar Bahasa Inggris)</label>
+      <textarea name="entry.890123" id="bua" rows="3"></textarea>
+
+      <button type="submit">Daftar Sekarang</button>
+    </form>
+  </div>
+</body>
+</html>
